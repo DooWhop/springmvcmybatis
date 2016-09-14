@@ -94,14 +94,13 @@
 			<artifactId>mybatis-spring</artifactId>
 			<version>1.2.2</version>
 		</dependency>
-		<!-- 导入java ee jar 包 如果已经导入jre，此处应该删除或者加上scope属性-->
+		<!-- 导入java ee jar 包 -->
 		<dependency>
 			<groupId>javax</groupId>
 			<artifactId>javaee-api</artifactId>
-			<version>7.0</version>
 			<scope>provided</scope>
+			<version>7.0</version>
 		</dependency>
-		
 		<!-- 导入Mysql数据库链接jar包 -->
 		<dependency>
 			<groupId>mysql</groupId>
